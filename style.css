@@ -103,6 +103,10 @@ ul li::before{
         font-size: 0.8rem;
         padding: 0.6rem;
     }
+
+    input[placeholder="Enter Your Task"]{
+        font-size: 0.6rem;
+    }
     
     .container .btn-add,
     .container .btn-remove {
