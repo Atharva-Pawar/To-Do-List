@@ -12,7 +12,7 @@ window.addEventListener('load', () => {
 
 // Function to render the list items
 function renderItems() {
-    ulList.innerHTML = ""; // Clear the list first
+    ulList.innerHTML = "";
 
     itemList.forEach((itemText, index) => {
         const createLI = document.createElement("li");
